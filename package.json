@@ -1,6 +1,7 @@
 {
   "name": "goscrum",
   "version": "0.1.0",
+  "homepage": "https://Vidal-Gonzalo.github.io/GoScrum",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -13,6 +14,7 @@
     "axios": "^0.27.2",
     "formik": "^2.2.9",
     "framer-motion": "^6.3.3",
+    "gh-pages": "^4.0.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-loading-skeleton": "^3.1.0",

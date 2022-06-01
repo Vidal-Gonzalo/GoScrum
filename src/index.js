@@ -8,7 +8,7 @@ import { store } from "./store/store";
 
 render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="GoScrum/">
       <Provider store={store}>
         <App />
       </Provider>
