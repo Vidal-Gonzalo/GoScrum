@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgoscrum=self.webpackChunkgoscrum||[]).push([[799],{3313:function(n,c,e){e.r(c),e.d(c,{default:function(){return u}});var r=e(184);function u(){return(0,r.jsx)("div",{className:"container",children:"P\xe1gina no encontrada"})}}}]);
+//# sourceMappingURL=799.0683a15b.chunk.js.map
