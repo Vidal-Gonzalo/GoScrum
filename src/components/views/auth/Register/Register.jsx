@@ -32,7 +32,7 @@ export const Register = () => {
           userName: values.userName,
           password: values.password,
           email: values.email,
-          teamID,
+          teamID: teamID,
           role: values.role,
           continent: values.continent,
           region: values.region,
@@ -40,11 +40,13 @@ export const Register = () => {
       }),
     })
       .then((res) => res.json())
-      .then((data) => {
-        navigate(`/registered/${data?.result?.user?.teamID}`, {
-          replace: true,
-        })
-          swal("¡Fuiste registrado con exito!");
+      .then(() => {
+        swal(
+          "¡Fuiste registrado con exito!",
+          `El ID de tu equipo es: ${teamID}.
+          ¡Es importante que lo guardes para compartirlo con tu equipo!`
+        );
+        navigate("/login");
       })
       .catch((err) => console.log(err));
   };

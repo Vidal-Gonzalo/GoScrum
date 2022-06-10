@@ -41,10 +41,7 @@ export const Login = () => {
           localStorage.setItem("token", data?.result?.token);
           localStorage.setItem("userName", data?.result?.user?.userName);
           navigate("/", { replace: true });
-          swal(
-            "¡Iniciaste sesión con éxito!",
-            "Bienvenidx a GoScrum"
-          );
+          swal("¡Iniciaste sesión con éxito!", "Bienvenidx a GoScrum");
         } else {
           swal(
             "Credenciales inválidas",

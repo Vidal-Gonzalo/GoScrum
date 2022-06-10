@@ -93,20 +93,6 @@ export const App = () => {
           }
         />
         <Route
-          path="/registered/:teamID"
-          element={
-            <motion.div
-              className="page"
-              initial="out"
-              animate="in"
-              exit="out"
-              variants={pageTransition}
-            >
-              <Registered />
-            </motion.div>
-          }
-        />
-        <Route
           path="*"
           element={
             <motion.div
